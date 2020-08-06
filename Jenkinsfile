@@ -9,7 +9,7 @@ pipeline {
         stage('Build'){
             steps{
                 echo 'Building or Resolve Dependencies!'
-                sh 'gem install'
+                sh 'bundle install'
             }
         }
         stage('Test'){
