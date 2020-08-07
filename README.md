@@ -21,3 +21,11 @@ Repositório do proejto Kabug com Cucumber, Capybara e Ruby
 ### Executar no servidor de CI (gernado reports JSON) 
 
 `bundle exec cucumber -p ci `
+
+### Criar imagem do docker usando DockerFile
+
+`docker build -t guivinilincoln/rubyqa . `
+
+#### Fazer um push da img criada
+
+`docker push guivinilincoln/rubyqa `
