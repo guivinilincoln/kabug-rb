@@ -1,0 +1,1 @@
+https://blog.qaninja.io/rodando-o-jenkins-em-um-container-docker/
